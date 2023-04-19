@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Analytics;
 
 public class DeathHandler : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class DeathHandler : MonoBehaviour
 
     public void HandleDeath()
     {
+        gameOverCanvas.gameObject.SetActive(true);
         gameOverCanvas.enabled = true;
         Time.timeScale = 0;
         FindObjectOfType<WeaponSwitcher>().enabled = false;

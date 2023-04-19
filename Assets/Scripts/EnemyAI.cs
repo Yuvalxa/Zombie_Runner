@@ -1,12 +1,15 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Analytics;
 
 public class EnemyAI : MonoBehaviour
 {
     [SerializeField] float chaseRange = 5f;
     [SerializeField] float turnSpeed = 5f;
+    [SerializeField] bool isBoss = false;
 
     NavMeshAgent navMeshAgent;
     float distanceToTarget = Mathf.Infinity;
@@ -37,6 +40,7 @@ public class EnemyAI : MonoBehaviour
         {
             isProvoked = true;
         }
+
     }
 
     public void OnDamageTaken()
