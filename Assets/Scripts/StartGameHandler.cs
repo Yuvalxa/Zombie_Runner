@@ -18,8 +18,8 @@ public class StartGameHandler : MonoBehaviour
         startGameCanvas.enabled = true;
         Time.timeScale = 0;
         //FindObjectOfType<WeaponSwitcher>().enabled = false;
-        UnityEngine.Cursor.lockState = CursorLockMode.None;
-        UnityEngine.Cursor.visible = false;
+        UnityEngine.Cursor.lockState = CursorLockMode.Confined;
+        UnityEngine.Cursor.visible = true;
     }
 
     private void HandleStart()

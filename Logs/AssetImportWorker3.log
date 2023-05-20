@@ -15,7 +15,7 @@ C:/Program Files/Github/Swarm/6_Zombie_Runner
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-58956
+54930
 Successfully changed project path to: C:/Program Files/Github/Swarm/6_Zombie_Runner
 C:/Program Files/Github/Swarm/6_Zombie_Runner
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Program Files/Github/Swarm/6_Zombie_Runner
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [5604] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 944312626 [EditorId] 944312626 [Version] 1048832 [Id] WindowsEditor(7,Noam) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [64800] Host "[IP] 172.23.224.1 [Port] 0 [Flags] 2 [Guid] 3705209293 [EditorId] 3705209293 [Version] 1048832 [Id] WindowsEditor(7,Noam) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [5604] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 944312626 [EditorId] 944312626 [Version] 1048832 [Id] WindowsEditor(7,Noam) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [64800] Host "[IP] 172.23.224.1 [Port] 0 [Flags] 2 [Guid] 3705209293 [EditorId] 3705209293 [Version] 1048832 [Id] WindowsEditor(7,Noam) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 148.20 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 33.79 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.1f1 (4fead5835099)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/Resources/UnitySubsystems
@@ -67,48 +67,48 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56856
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.013477 seconds.
-- Loaded All Assemblies, in  0.333 seconds
+Registered in 0.010067 seconds.
+- Loaded All Assemblies, in  0.285 seconds
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 351 ms
+Android Extension - Scanning For ADB Devices 222 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.687 seconds
+- Finished resetting the current domain, in  0.476 seconds
 Domain Reload Profiling:
-	ReloadAssembly (197ms)
-		BeginReloadAssembly (85ms)
+	ReloadAssembly (168ms)
+		BeginReloadAssembly (71ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (83ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (126ms)
-				TypeCache.Initialize (124ms)
-					TypeCache.ScanAssembly (122ms)
-				ResolveRequiredComponents (1ms)
+			SetupTypeCache (108ms)
+				TypeCache.Initialize (108ms)
+					TypeCache.ScanAssembly (106ms)
+				ResolveRequiredComponents (0ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (629ms)
+			SetupLoadedEditorAssemblies (427ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (479ms)
-				SetLoadedEditorAssemblies (5ms)
+				InitializePlatformSupportModulesInManaged (290ms)
+				SetLoadedEditorAssemblies (4ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (97ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
+				ProcessInitializeOnLoadAttributes (91ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -116,8 +116,8 @@ Domain Reload Profiling:
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.684 seconds
-Refreshing native plugins compatible for Editor in 25.63 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.496 seconds
+Refreshing native plugins compatible for Editor in 23.49 ms, found 2 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
@@ -125,47 +125,48 @@ Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.690 seconds
+- Finished resetting the current domain, in  0.590 seconds
 Domain Reload Profiling:
-	ReloadAssembly (271ms)
-		BeginReloadAssembly (165ms)
+	ReloadAssembly (196ms)
+		BeginReloadAssembly (110ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		LoadAllAssembliesAndSetupDomain (408ms)
-			LoadAssemblies (166ms)
+			CreateAndSetChildDomain (19ms)
+		LoadAllAssembliesAndSetupDomain (296ms)
+			LoadAssemblies (93ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (330ms)
-				TypeCache.Initialize (207ms)
-					TypeCache.ScanAssembly (203ms)
-				ResolveRequiredComponents (5ms)
+			SetupTypeCache (250ms)
+				TypeCache.Initialize (172ms)
+					TypeCache.ScanAssembly (169ms)
+				ResolveRequiredComponents (3ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (536ms)
+			SetupLoadedEditorAssemblies (465ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (29ms)
-				SetLoadedEditorAssemblies (6ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (7ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (93ms)
-				ProcessInitializeOnLoadAttributes (269ms)
-				ProcessInitializeOnLoadMethodAttributes (132ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (233ms)
+				ProcessInitializeOnLoadMethodAttributes (116ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-database is locked
-Failed to delete database file Library/ShaderCache.db
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 37.62 ms, found 2 plugins.
+			AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 21.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3008 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 111 unused Assets / (0.5 MB). Loaded Objects now: 3434.
-Memory consumption went from 498.4 MB to 497.9 MB.
-Total: 7.648600 ms (FindLiveObjects: 0.374700 ms CreateObjectMapping: 0.103800 ms MarkObjects: 6.690700 ms  DeleteObjects: 0.477700 ms)
+Unloading 3016 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 114 unused Assets / (494.1 KB). Loaded Objects now: 3556.
+Memory consumption went from 502.7 MB to 502.2 MB.
+Total: 6.643700 ms (FindLiveObjects: 0.253300 ms CreateObjectMapping: 0.104800 ms MarkObjects: 5.856400 ms  DeleteObjects: 0.427800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -181,378 +182,372 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 100859.361221 seconds.
-  path: Assets/L_FG_Assets_Pack_Lite/L_FG_Assets_Pack_Lite/Perfabs/Decal/Bloom03.prefab
-  artifactKey: Guid(acebd669d34598a40a103042011b1028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 249884.043533 seconds.
+  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/PillarA2DEP_ST.mat
+  artifactKey: Guid(c911cb6130bbc4541bf3925ca05af0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/L_FG_Assets_Pack_Lite/L_FG_Assets_Pack_Lite/Perfabs/Decal/Bloom03.prefab using Guid(acebd669d34598a40a103042011b1028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118149844d2ebadd586aa14464dfba2d') in 0.206737 seconds 
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/L_FG_Assets_Pack_Lite/L_FG_Assets_Pack_Lite/Meshes/Gravestone04.FBX
-  artifactKey: Guid(ab49adfe85921a5418d1a2a1e2d2acfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/L_FG_Assets_Pack_Lite/L_FG_Assets_Pack_Lite/Meshes/Gravestone04.FBX using Guid(ab49adfe85921a5418d1a2a1e2d2acfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0249ae3b65a7a4ae0820b20dcc0a16') in 0.071001 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Asset Packs/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD2/Branches_0.mat
-  artifactKey: Guid(5c6bda52f548c164381f24c22067e446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Asset Packs/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD2/Branches_0.mat using Guid(5c6bda52f548c164381f24c22067e446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e9a3a191b1bfd102d83a06bca33e96e') in 0.091046 seconds 
+Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/PillarA2DEP_ST.mat using Guid(c911cb6130bbc4541bf3925ca05af0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f60637903a0ce22b9ae3b4c40dc6557a') in 0.282132 seconds 
 Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/L_FG_Assets_Pack_Lite/L_FG_Assets_Pack_Lite/Perfabs/Decal/Bloom04.prefab
-  artifactKey: Guid(2d37c94e75e432645aade82bf6ea565f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/L_FG_Assets_Pack_Lite/L_FG_Assets_Pack_Lite/Perfabs/Decal/Bloom04.prefab using Guid(2d37c94e75e432645aade82bf6ea565f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d4d7c86a591ed08dd1b5d7a5d7d34d4') in 0.023787 seconds 
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Asset Packs/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/Branches_1.mat
-  artifactKey: Guid(97ad51f0a4aed0a4289f5462ce6dc18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Asset Packs/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/Branches_1.mat using Guid(97ad51f0a4aed0a4289f5462ce6dc18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dee1606ae8602a798e54a67f1498035') in 0.020795 seconds 
-Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000036 seconds.
-  path: Assets/Asset Packs/Low Poly Props/___PREFABS___/barrel 2.prefab
-  artifactKey: Guid(a3b91d9b2c6caf54cbc01a6f96ad2007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/ProBuilderDefault.mat
+  artifactKey: Guid(c22777d6e868e4f2fb421913386b154e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Asset Packs/Low Poly Props/___PREFABS___/barrel 2.prefab using Guid(a3b91d9b2c6caf54cbc01a6f96ad2007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a3cf7abb7336ffd94bff2125aa83fd9') in 0.055567 seconds 
-Number of asset objects unloaded after import = 13
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/ProBuilderDefault.mat using Guid(c22777d6e868e4f2fb421913386b154e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '130dec2804e0db318b17242d0da25789') in 0.056615 seconds 
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Asset Packs/Standard Assets/Characters/ThirdPersonCharacter/Models/Ethan.fbx
-  artifactKey: Guid(b235179bd2a63d1468dd430670338c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000028 seconds.
+  path: Assets/Asset Packs/Survival Carbine/Materials/Shell.mat
+  artifactKey: Guid(2b35f1bc3af2a7d46b77b7e7c16c90de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Asset Packs/Standard Assets/Characters/ThirdPersonCharacter/Models/Ethan.fbx using Guid(b235179bd2a63d1468dd430670338c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec87a07c707953237a557e6f736e74fb') in 0.189961 seconds 
-Number of asset objects unloaded after import = 179
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Asset Packs/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD0/Branches_0.mat
-  artifactKey: Guid(89bc4a04979629642988a379a429608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Asset Packs/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD0/Branches_0.mat using Guid(89bc4a04979629642988a379a429608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aaa042ed4e18141668bab1add53dc24') in 0.054110 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Asset Packs/Low Poly Props/___PREFABS___/container 1.prefab
-  artifactKey: Guid(61f319715fe50d44091e88e9c99323fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Asset Packs/Low Poly Props/___PREFABS___/container 1.prefab using Guid(61f319715fe50d44091e88e9c99323fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '137ca331544eef8b263dff44f8ca1be0') in 0.061344 seconds 
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Asset Packs/Standard Assets/Prototyping/Models/FloorPrototype08x01x08.fbx
-  artifactKey: Guid(16fb769c0394c36469ed40a4f35c1eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Asset Packs/Standard Assets/Prototyping/Models/FloorPrototype08x01x08.fbx using Guid(16fb769c0394c36469ed40a4f35c1eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71791ea111854fd0d3ad571e4306eb0b') in 0.044048 seconds 
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Asset Packs/Low Poly Props/locker/material B/_mat_lock.mat
-  artifactKey: Guid(8dc064a2daa01904aaef207453686169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Asset Packs/Low Poly Props/locker/material B/_mat_lock.mat using Guid(8dc064a2daa01904aaef207453686169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e3d02e39178b2429af04ecf4941c50') in 0.053454 seconds 
+Start importing Assets/Asset Packs/Survival Carbine/Materials/Shell.mat using Guid(2b35f1bc3af2a7d46b77b7e7c16c90de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45c94da1585a08ab944904e059f0293c') in 0.046794 seconds 
 Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/Asset Packs/Standard Assets/CrossPlatformInput/Prefabs/DualTouchControls.prefab
-  artifactKey: Guid(2169821f0567671499a5c10104c69c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/SandStoneDEEP A.mat
+  artifactKey: Guid(0847c60328a1dce4ca79051f04ea7e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Asset Packs/Standard Assets/CrossPlatformInput/Prefabs/DualTouchControls.prefab using Guid(2169821f0567671499a5c10104c69c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '164e2b8ea58f36ee26ec7d69745c9690') in 0.037743 seconds 
-Number of asset objects unloaded after import = 41
+Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/SandStoneDEEP A.mat using Guid(0847c60328a1dce4ca79051f04ea7e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de950215b07b0d910ae9af8ddf5a4dd') in 0.110912 seconds 
+Number of asset objects unloaded after import = 5
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Asset Packs/Standard Assets/Cameras/Prefabs/CctvCamera.prefab
-  artifactKey: Guid(851d11542d51c464e89acf6875599172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000025 seconds.
+  path: Assets/EasyRoads3D/Materials/roadsample_d.mat
+  artifactKey: Guid(c4175582b801f5b4e9c70608f72dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Asset Packs/Standard Assets/Cameras/Prefabs/CctvCamera.prefab using Guid(851d11542d51c464e89acf6875599172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2a77cf7907e6a380236ac0c6a60091c') in 0.010678 seconds 
-Number of asset objects unloaded after import = 9
+Start importing Assets/EasyRoads3D/Materials/roadsample_d.mat using Guid(c4175582b801f5b4e9c70608f72dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5325483b5c1b4276321f4f3d9726c575') in 0.022587 seconds 
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Asset Packs/Low Poly Props/box 1/model/box_1.obj
-  artifactKey: Guid(73fd195a784d5954d8d9cee8726b831c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asset Packs/Standard Assets/Characters/RollerBall/Materials/RollerBallWhite.mat
+  artifactKey: Guid(4b5dce0492bdfb648a389fe390071625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Asset Packs/Low Poly Props/box 1/model/box_1.obj using Guid(73fd195a784d5954d8d9cee8726b831c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4002ef148260f6e354456cc477145a56') in 0.050048 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Asset Packs/Low Poly Props/box 1/Materials/box_1_mat_2.mat
-  artifactKey: Guid(0009200070cb9974191520186e77cdbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Asset Packs/Low Poly Props/box 1/Materials/box_1_mat_2.mat using Guid(0009200070cb9974191520186e77cdbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee263e58cba83d5a09c7fa8aa5d647a') in 0.040190 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Asset Packs/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidJumpAndFall.fbx
-  artifactKey: Guid(51dd2e4c869794f75a0df7d54b210214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Asset Packs/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidJumpAndFall.fbx using Guid(51dd2e4c869794f75a0df7d54b210214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d4ea324dd02461c174af0ed32b3c9b') in 0.017883 seconds 
-Number of asset objects unloaded after import = 160
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/L_FG_Assets_Pack_Lite/L_FG_Assets_Pack_Lite/Meshes/Cart03.FBX
-  artifactKey: Guid(5428fbf5fe8baa647b32476dfd3cb800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/L_FG_Assets_Pack_Lite/L_FG_Assets_Pack_Lite/Meshes/Cart03.FBX using Guid(5428fbf5fe8baa647b32476dfd3cb800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e56db06d446dd4b4f2b535ac7d08e2af') in 0.034831 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Asset Packs/Low Poly Props/cont_1/material/_mat_c_1.mat
-  artifactKey: Guid(e5ca1562628ff2a428c5abeae984cce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Asset Packs/Low Poly Props/cont_1/material/_mat_c_1.mat using Guid(e5ca1562628ff2a428c5abeae984cce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd7ab8571d661aa44d08c5b93edc935') in 0.034315 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/Asset Packs/Standard Assets/Characters/RollerBall/Materials/RollerBallWhite.mat using Guid(4b5dce0492bdfb648a389fe390071625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c9f728b02bb9be72e7edf9bd30a0fb5') in 0.030566 seconds 
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
   Time since last request: 0.000030 seconds.
-  path: Assets/L_FG_Assets_Pack_Lite/L_FG_Assets_Pack_Lite/Meshes/Gravestone02.FBX
-  artifactKey: Guid(3d8f2299d5d62cc4d9b5cb61b5037169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/SandStoneDEEP C 1.mat
+  artifactKey: Guid(e15c20183aa64db418e948b03f3803e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/L_FG_Assets_Pack_Lite/L_FG_Assets_Pack_Lite/Meshes/Gravestone02.FBX using Guid(3d8f2299d5d62cc4d9b5cb61b5037169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '344c683ec73dbe3b600f00053b89a3b9') in 0.031462 seconds 
-Number of asset objects unloaded after import = 9
+Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/SandStoneDEEP C 1.mat using Guid(e15c20183aa64db418e948b03f3803e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ebfa0ca178f5086f5c4b2200f86610') in 0.060688 seconds 
+Number of asset objects unloaded after import = 5
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Asset Packs/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD2/Branches_0.mat
-  artifactKey: Guid(cd764ab8662bea6468202df8741bcfd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000029 seconds.
+  path: Assets/Asset Packs/Standard Assets/Characters/RollerBall/Materials/RollerBallGrey.mat
+  artifactKey: Guid(6fd099d339b4ae34692c8258e4f87531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Asset Packs/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD2/Branches_0.mat using Guid(cd764ab8662bea6468202df8741bcfd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acafd3218cc0cdf14402dc26eaf6d069') in 0.021560 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/L_FG_Assets_Pack_Lite/L_FG_Assets_Pack_Lite/Meshes/Ground01.FBX
-  artifactKey: Guid(83b0b92def3aa774385850f9edd21f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/L_FG_Assets_Pack_Lite/L_FG_Assets_Pack_Lite/Meshes/Ground01.FBX using Guid(83b0b92def3aa774385850f9edd21f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48703b23086266e9bd4cc1d0a258ab68') in 0.038866 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/L_FG_Assets_Pack_Lite/L_FG_Assets_Pack_Lite/Meshes/Collision/Coffin01_b_col.FBX
-  artifactKey: Guid(03fa21db3dcfa9a468363bd9ddba0b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/L_FG_Assets_Pack_Lite/L_FG_Assets_Pack_Lite/Meshes/Collision/Coffin01_b_col.FBX using Guid(03fa21db3dcfa9a468363bd9ddba0b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c200ff37ef4b34beeca4516519db7fb') in 0.030185 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/L_FG_Assets_Pack_Lite/L_FG_Assets_Pack_Lite/Meshes/Dust01.FBX
-  artifactKey: Guid(1d4861fb1a450eb4382d0208f25f5c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/L_FG_Assets_Pack_Lite/L_FG_Assets_Pack_Lite/Meshes/Dust01.FBX using Guid(1d4861fb1a450eb4382d0208f25f5c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f87c51fdccd2fb61c84c5dda71f6685d') in 0.024395 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Asset Packs/Low Poly Props/___PREFABS___/concrete_oval.prefab
-  artifactKey: Guid(ae34ae2cca6f6cf469ed2c07f221f483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Asset Packs/Low Poly Props/___PREFABS___/concrete_oval.prefab using Guid(ae34ae2cca6f6cf469ed2c07f221f483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c32e21729286f25d98696552f0af46') in 0.030207 seconds 
-Number of asset objects unloaded after import = 12
+Start importing Assets/Asset Packs/Standard Assets/Characters/RollerBall/Materials/RollerBallGrey.mat using Guid(6fd099d339b4ae34692c8258e4f87531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a97471adbe28b68a7a0e72ec8377dc') in 0.021980 seconds 
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/Asset Packs/Standard Assets/CrossPlatformInput/Prefabs/CarTiltControls.prefab
-  artifactKey: Guid(174090ae7f9eff84abe76f0ff062efac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  path: Assets/EasyRoads3D/Resources/Materials/sidewalks/sidewalk.mat
+  artifactKey: Guid(d74dc327ca3fad8408eeeaf8ad54a110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Asset Packs/Standard Assets/CrossPlatformInput/Prefabs/CarTiltControls.prefab using Guid(174090ae7f9eff84abe76f0ff062efac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c094dee392886e8352d8ad5bd4c1678') in 0.040901 seconds 
-Number of asset objects unloaded after import = 32
+Start importing Assets/EasyRoads3D/Resources/Materials/sidewalks/sidewalk.mat using Guid(d74dc327ca3fad8408eeeaf8ad54a110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '940f62fe6928be018fd8e8cc4e966fcd') in 0.021678 seconds 
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/L_FG_Assets_Pack_Lite/L_FG_Assets_Pack_Lite/Materials/Bloom01.mat
-  artifactKey: Guid(c8120d15b210bba4bb8cab8f6623dad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/PillarADEP_ST.mat
+  artifactKey: Guid(171494acadf804a419f7619902517014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/L_FG_Assets_Pack_Lite/L_FG_Assets_Pack_Lite/Materials/Bloom01.mat using Guid(c8120d15b210bba4bb8cab8f6623dad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c6e39dcd8b722938320e38ec9e6751f') in 0.018874 seconds 
+Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/PillarADEP_ST.mat using Guid(171494acadf804a419f7619902517014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72fae64e9b9f758710a7ee3c41421ae4') in 0.159003 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/RawStoneDEP_ST.mat
+  artifactKey: Guid(efc0af282d36bdb4d83ebe2fe7331187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/RawStoneDEP_ST.mat using Guid(efc0af282d36bdb4d83ebe2fe7331187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd96819ad962ffd3804016373da6a2d8a') in 0.230541 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Materials/Red.mat
+  artifactKey: Guid(61bd2c61b0e36cc4db51aeda44efa5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Materials/Red.mat using Guid(61bd2c61b0e36cc4db51aeda44efa5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a69c34e634b6ae6ccae333e9c9269fc1') in 0.029192 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asset Packs/Standard Assets/Prototyping/Materials/PinkGrid.mat
+  artifactKey: Guid(8c19a618a0bd9844583b91dca0875a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asset Packs/Standard Assets/Prototyping/Materials/PinkGrid.mat using Guid(8c19a618a0bd9844583b91dca0875a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dba7aef6e02f48fbb9881a1b6990dfd') in 0.037711 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/StandardVertexColorHDRP.mat
+  artifactKey: Guid(c35693c079f3840f7938a4a323096e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/StandardVertexColorHDRP.mat using Guid(c35693c079f3840f7938a4a323096e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da7d176a6bef4dd6c4d4ca36a531e82') in 0.024485 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.574274 seconds.
+  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/StoneTileC2DEP_ST.mat
+  artifactKey: Guid(422b8603c9e43844db3719c6bb70ac4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/StoneTileC2DEP_ST.mat using Guid(422b8603c9e43844db3719c6bb70ac4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2043b22b3debf6f188895e250c15ee') in 0.058405 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/StoneTileC2DEP_ST 1.mat
+  artifactKey: Guid(4c7f9f3a226650a4a9d4542aa99d987f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/StoneTileC2DEP_ST 1.mat using Guid(4c7f9f3a226650a4a9d4542aa99d987f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1137baac8de74a6e231106a802c703') in 0.038100 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000641 seconds.
+  path: Assets/Asset Packs/Standard Assets/Prototyping/Materials/SwatchWhiteAlbedo.mat
+  artifactKey: Guid(3f06aa7fdadb2804ba6a974a9fbe4b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asset Packs/Standard Assets/Prototyping/Materials/SwatchWhiteAlbedo.mat using Guid(3f06aa7fdadb2804ba6a974a9fbe4b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c9ab8a39828b32e9f1581625a44881') in 0.036460 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Asset Packs/Standard Assets/Effects/ToonShading/Materials/ToonBasic.mat
+  artifactKey: Guid(84b9e1d19d11078d11005b9844295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asset Packs/Standard Assets/Effects/ToonShading/Materials/ToonBasic.mat using Guid(84b9e1d19d11078d11005b9844295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ae24e1986cc757d1e6c9b048e993a5') in 0.032649 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/Trigger.mat
+  artifactKey: Guid(a1e97cbf2538241b691aae8243b5fb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/Trigger.mat using Guid(a1e97cbf2538241b691aae8243b5fb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84219c4d1903ec3af35d4fdc03e09b65') in 0.039195 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Asset Packs/Standard Assets/Effects/TessellationShaders/Materials/TesselatedBumpSpecularDisplacement.mat
+  artifactKey: Guid(26d8bdbc8646bde48b05fbaacaaa6577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asset Packs/Standard Assets/Effects/TessellationShaders/Materials/TesselatedBumpSpecularDisplacement.mat using Guid(26d8bdbc8646bde48b05fbaacaaa6577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ac2d64ce24e2375aaac5f44f6a3ec2') in 0.356550 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.009729 seconds.
+  path: Assets/Asset Packs/Standard Assets/Environment/Water/Water/Materials/WaterProNighttime.mat
+  artifactKey: Guid(e633a20421c47426aa04444234225b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asset Packs/Standard Assets/Environment/Water/Water/Materials/WaterProNighttime.mat using Guid(e633a20421c47426aa04444234225b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3196b48e3e06b8e07d12a3c43f5fb0f7') in 0.058575 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset Packs/Standard Assets/Environment/Water/Water4/Materials/Water4Advanced.mat
+  artifactKey: Guid(a5f2339f242f6cc41a982ec55ea3c201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asset Packs/Standard Assets/Environment/Water/Water4/Materials/Water4Advanced.mat using Guid(a5f2339f242f6cc41a982ec55ea3c201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990822875428042db6a2365152822089') in 0.043231 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asset Packs/Wall Textures/GenericWall1/wall1.mat
+  artifactKey: Guid(1e23b2d236a58f040968acd05c361bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asset Packs/Wall Textures/GenericWall1/wall1.mat using Guid(1e23b2d236a58f040968acd05c361bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9edfc8d462ae2c22a2926dfd7a5000c4') in 0.031391 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asset Packs/Standard Assets/Prototyping/Materials/SwatchTealAlbedo.mat
+  artifactKey: Guid(3346460d6a3950d47bd02737252d4b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asset Packs/Standard Assets/Prototyping/Materials/SwatchTealAlbedo.mat using Guid(3346460d6a3950d47bd02737252d4b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a46c52cc13a82acca66f5fee26eb5c58') in 0.030322 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset Packs/Standard Assets/Effects/ToonShading/Materials/ToonBasicOutline.mat
+  artifactKey: Guid(215977489d11178d11005b9844295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asset Packs/Standard Assets/Effects/ToonShading/Materials/ToonBasicOutline.mat using Guid(215977489d11178d11005b9844295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63177a05f94264b70d64656589ba963d') in 0.055099 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/StoneTileDEP_ST.mat
+  artifactKey: Guid(195aac9089073be409ac4f63d833ec6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/StoneTileDEP_ST.mat using Guid(195aac9089073be409ac4f63d833ec6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc7ea9a826b50ac57dc10b840318fb5d') in 0.066466 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Asset Packs/Zombie/Materials/Zombie.mat
+  artifactKey: Guid(4bd180b051e2ca54ebfe82cf04ec20a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asset Packs/Zombie/Materials/Zombie.mat using Guid(4bd180b051e2ca54ebfe82cf04ec20a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04bbc5d6987ab5a247d9dc8620411a62') in 0.030922 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Materials/Yellow Emissive.mat
+  artifactKey: Guid(6d493330476f3354591926961622dfb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Materials/Yellow Emissive.mat using Guid(6d493330476f3354591926961622dfb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef536f9136c22fbf581ee1dcb4be18b') in 0.020405 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scenes/Materials/ZR-Level-Plan.mat
+  artifactKey: Guid(0013278097ccca34c82f4c38ba2649ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/Materials/ZR-Level-Plan.mat using Guid(0013278097ccca34c82f4c38ba2649ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab8f1377bcead0179d2a0b1cd64c357') in 0.023242 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/EasyRoads3D/Resources/Materials/surfaceMaterial.mat
+  artifactKey: Guid(6df83606ee896204ea5f2925b610f5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/EasyRoads3D/Resources/Materials/surfaceMaterial.mat using Guid(6df83606ee896204ea5f2925b610f5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef7424511ddd7caaa15f7821d0d2b946') in 0.123117 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/UnlitVertexColor.mat
+  artifactKey: Guid(29966c3c0907b49b58c4e59342d020cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/UnlitVertexColor.mat using Guid(29966c3c0907b49b58c4e59342d020cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6568fa4cb83b1bcc132c82a830709e5') in 0.021051 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Asset Packs/Wall Textures/GenericWall2/wall2.mat
+  artifactKey: Guid(29f48cc2a8ed8f448a8579bc2c980c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asset Packs/Wall Textures/GenericWall2/wall2.mat using Guid(29f48cc2a8ed8f448a8579bc2c980c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b52258f914c8a5949d7120cf292e24') in 0.034206 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset Packs/Standard Assets/Prototyping/Materials/SwatchNavyAlbedo.mat
+  artifactKey: Guid(0c7cfe9090684484dbf1cce2fe563a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asset Packs/Standard Assets/Prototyping/Materials/SwatchNavyAlbedo.mat using Guid(0c7cfe9090684484dbf1cce2fe563a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '210f086a2387e569349dcddb23b5e8c2') in 0.028169 seconds 
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/Asset Packs/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD0/Branches_0.mat
-  artifactKey: Guid(bfc1dabf45016eb46b99df1a78054924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  path: Assets/Asset Packs/Standard Assets/Prototyping/Materials/YellowSmooth.mat
+  artifactKey: Guid(6e1d36c4bbd37d54f9ea183e4f5fd656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Asset Packs/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD0/Branches_0.mat using Guid(bfc1dabf45016eb46b99df1a78054924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beee3f34a29ae13d90e5d32cb064004e') in 0.020811 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/L_FG_Assets_Pack_Lite/L_FG_Assets_Pack_Lite/Perfabs/Wood_Stuff/Cart04.prefab
-  artifactKey: Guid(55aa49c292af7574c9a84c4aa5b2faf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/L_FG_Assets_Pack_Lite/L_FG_Assets_Pack_Lite/Perfabs/Wood_Stuff/Cart04.prefab using Guid(55aa49c292af7574c9a84c4aa5b2faf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c327bca6b8b43c4c9f35a6b423a262') in 0.018350 seconds 
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Asset Packs/Standard Assets/Prototyping/Models/FloorPrototype04x01x04.fbx
-  artifactKey: Guid(080bc076ed19adb4091adca05de83d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Asset Packs/Standard Assets/Prototyping/Models/FloorPrototype04x01x04.fbx using Guid(080bc076ed19adb4091adca05de83d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1581705ae933b2effaaf9f398ecafb1') in 0.030419 seconds 
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Asset Packs/Standard Assets/Characters/ThirdPersonCharacter/Prefabs/AIThirdPersonController.prefab
-  artifactKey: Guid(54eb5844754051b40a918a84c33b7c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Asset Packs/Standard Assets/Characters/ThirdPersonCharacter/Prefabs/AIThirdPersonController.prefab using Guid(54eb5844754051b40a918a84c33b7c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4c0cd71c32285a556d86d6259750be') in 0.133958 seconds 
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of asset objects unloaded after import = 224
-========================================================================
-Received Import Request.
-  Time since last request: 651.296672 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/Dwarven Dungeon Entrance_Scene.prefab
-  artifactKey: Guid(6cd36f5ade0ee474ab43ad38e0ba25b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/Dwarven Dungeon Entrance_Scene.prefab using Guid(6cd36f5ade0ee474ab43ad38e0ba25b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f362f0e1907e55e040f6edf7f3ecd2') in 0.639026 seconds 
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of asset objects unloaded after import = 70
-========================================================================
-Received Import Request.
-  Time since last request: 3.457885 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/FreePack vs Full Pack/Full Pack.jpg
-  artifactKey: Guid(16a9db3850161c8409d918081fbbae62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/FreePack vs Full Pack/Full Pack.jpg using Guid(16a9db3850161c8409d918081fbbae62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c7862f2cbe0d604e9b182748f894ee9') in 0.074662 seconds 
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Start importing Assets/Asset Packs/Standard Assets/Prototyping/Materials/YellowSmooth.mat using Guid(6e1d36c4bbd37d54f9ea183e4f5fd656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7b0fee8cc0eb2f3c7daafa6410fb52') in 0.024187 seconds 
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 7.962501 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/DungeonStructureHeadDEP_ST.prefab
-  artifactKey: Guid(19f0d44f83181c64aaee4796197eb52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/DungeonStructureHeadDEP_ST.prefab using Guid(19f0d44f83181c64aaee4796197eb52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5492e9decbd2b5673d61e804a4853191') in 0.407215 seconds 
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of asset objects unloaded after import = 35
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/SuportBeamDDEP_ST.prefab
-  artifactKey: Guid(86aec6df794e71547af8e1258dbb0aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/SuportBeamDDEP_ST.prefab using Guid(86aec6df794e71547af8e1258dbb0aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382c9ff38ca9c24f6900437c57c625a0') in 0.029543 seconds 
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/SuportBeamBDEP_ST.prefab
-  artifactKey: Guid(396ec105a7b8ac34b8282db4b9cd0b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/SuportBeamBDEP_ST.prefab using Guid(396ec105a7b8ac34b8282db4b9cd0b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac4db001ee314324238388e9a69080e') in 0.030871 seconds 
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallPropsMidle_ST.prefab
-  artifactKey: Guid(2998b5d34fc488545954a5e01b0462f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallPropsMidle_ST.prefab using Guid(2998b5d34fc488545954a5e01b0462f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e14ff4d2a8e8e9092acc640fd33805e5') in 0.050013 seconds 
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
   Time since last request: 0.000026 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallBlockA03ADEP.prefab
-  artifactKey: Guid(f881312789ac37f4e9a109e0dfd84b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  path: Assets/Asset Packs/Standard Assets/Effects/TessellationShaders/Materials/TesselatedBumpSpecular.mat
+  artifactKey: Guid(a3384ef3e2313034f9016ad8a1f3999f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallBlockA03ADEP.prefab using Guid(f881312789ac37f4e9a109e0dfd84b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990993978ffbb25531804ff775ebf0db') in 0.029429 seconds 
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of asset objects unloaded after import = 13
+Start importing Assets/Asset Packs/Standard Assets/Effects/TessellationShaders/Materials/TesselatedBumpSpecular.mat using Guid(a3384ef3e2313034f9016ad8a1f3999f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db0e93c26da986484227efc87ac75cc') in 0.161086 seconds 
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/DungeonStructureTowerDEP_ST.prefab
-  artifactKey: Guid(3bdfacaee031fad44a81bc6c2a67d179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 5.528001 seconds.
+  path: Assets/Asset Packs/Standard Assets/ParticleSystems/Materials/ParticleSmokeWhite.mat
+  artifactKey: Guid(c50d77affeb31e14c9c062c282f13fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/DungeonStructureTowerDEP_ST.prefab using Guid(3bdfacaee031fad44a81bc6c2a67d179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfea067277d34c90f8da03317900267b') in 0.054996 seconds 
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of asset objects unloaded after import = 12
+Start importing Assets/Asset Packs/Standard Assets/ParticleSystems/Materials/ParticleSmokeWhite.mat using Guid(c50d77affeb31e14c9c062c282f13fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '795e58f13d19c293d154aace60cda009') in 0.022913 seconds 
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallPropsBottomA_ST.prefab
-  artifactKey: Guid(fee4035f303fb1e48b130b830c23f49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset Packs/Standard Assets/ParticleSystems/Materials/ParticleSteam.mat
+  artifactKey: Guid(60d4adad90a8b164abbb7d8ff5b4118a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallPropsBottomA_ST.prefab using Guid(fee4035f303fb1e48b130b830c23f49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb700c949814c3c045e3175549403549') in 0.060558 seconds 
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of asset objects unloaded after import = 12
+Start importing Assets/Asset Packs/Standard Assets/ParticleSystems/Materials/ParticleSteam.mat using Guid(60d4adad90a8b164abbb7d8ff5b4118a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc6b0a6004dd0dbd4dea9912b0167c9') in 0.022354 seconds 
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/SuportBeamADEP_ST.prefab
-  artifactKey: Guid(05621cf18ffdbc347a5dedd09d576380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.079253 seconds.
+  path: Assets/Asset Packs/Standard Assets/ParticleSystems/Materials/ParticleFireball.mat
+  artifactKey: Guid(26ea534dcd83fe14c9173a52e151cce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/SuportBeamADEP_ST.prefab using Guid(05621cf18ffdbc347a5dedd09d576380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f173e87fb6558e08765ef3f80b4d0f') in 0.030930 seconds 
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of asset objects unloaded after import = 12
+Start importing Assets/Asset Packs/Standard Assets/ParticleSystems/Materials/ParticleFireball.mat using Guid(26ea534dcd83fe14c9173a52e151cce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8acfb5e6b4092fd0079ae80eff33eed1') in 0.027153 seconds 
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallPropsWindowA1_ST.prefab
-  artifactKey: Guid(39d703c5b34d9a54985ce84532b098da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.012082 seconds.
+  path: Assets/Asset Packs/Standard Assets/ParticleSystems/Materials/ParticleSmokeBlack.mat
+  artifactKey: Guid(fc626cffedc907848a7b47b87aa5e34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallPropsWindowA1_ST.prefab using Guid(39d703c5b34d9a54985ce84532b098da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8512cd43c42c072c5dc63ceb4717b1b') in 0.075756 seconds 
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of asset objects unloaded after import = 12
+Start importing Assets/Asset Packs/Standard Assets/ParticleSystems/Materials/ParticleSmokeBlack.mat using Guid(fc626cffedc907848a7b47b87aa5e34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '987c14848944b388b60bbb82ec91dac3') in 0.029061 seconds 
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallPropsTopA_ST.prefab
-  artifactKey: Guid(024b7e337c87e0149a4cbcfd8292ce7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.048235 seconds.
+  path: Assets/Asset Packs/Standard Assets/Prototyping/Materials/NavySmooth.mat
+  artifactKey: Guid(1032d41f900276c40a9dd24f55b7d420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallPropsTopA_ST.prefab using Guid(024b7e337c87e0149a4cbcfd8292ce7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7545a19b73c5f27dccf881904dbf67') in 0.058720 seconds 
-Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of asset objects unloaded after import = 12
+Start importing Assets/Asset Packs/Standard Assets/Prototyping/Materials/NavySmooth.mat using Guid(1032d41f900276c40a9dd24f55b7d420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99be57c33a1cc6b2ddfd1ae77c2b47df') in 0.021132 seconds 
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallPropsBottomB_ST.prefab
-  artifactKey: Guid(4a5671e23279ff243b82037573e55e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.004089 seconds.
+  path: Assets/L_FG_Assets_Pack_Lite/L_FG_Assets_Pack_Lite/Materials/Particle01.mat
+  artifactKey: Guid(b9c09f1288d683a45acbc66cc41a0ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallPropsBottomB_ST.prefab using Guid(4a5671e23279ff243b82037573e55e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '931e62618fb7d5c7d08db10aa3d68957') in 0.062204 seconds 
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of asset objects unloaded after import = 12
+Start importing Assets/L_FG_Assets_Pack_Lite/L_FG_Assets_Pack_Lite/Materials/Particle01.mat using Guid(b9c09f1288d683a45acbc66cc41a0ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c087e3b30f4872339fb565ae9738c13') in 0.019776 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.283681 seconds.
+  path: Assets/Asset Packs/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD0/Leaves_3.mat
+  artifactKey: Guid(a6b21b8c372827345a11bae2fb736e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asset Packs/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD0/Leaves_3.mat using Guid(a6b21b8c372827345a11bae2fb736e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62394ddc105a360ed4877765461888a2') in 0.090769 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Asset Packs/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD1/Leaves_3.mat
+  artifactKey: Guid(9cc6d6e9e3fe9154890a6f9caa77c955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asset Packs/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD1/Leaves_3.mat using Guid(9cc6d6e9e3fe9154890a6f9caa77c955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe4c53f6463967c6fee42b44890d186') in 0.063627 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asset Packs/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/Leaves_3.mat
+  artifactKey: Guid(21b01056ea59b814f9ae15d8e6bb3aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asset Packs/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/Leaves_3.mat using Guid(21b01056ea59b814f9ae15d8e6bb3aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d7d82d2a37cad74444bfa0fdf3c5f0') in 0.033474 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.020404 seconds.
+  path: Assets/L_FG_Assets_Pack_Lite/L_FG_Assets_Pack_Lite/Materials/Ground01.mat
+  artifactKey: Guid(d3da3aadf60cdc049badaf82bc2c6f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/L_FG_Assets_Pack_Lite/L_FG_Assets_Pack_Lite/Materials/Ground01.mat using Guid(d3da3aadf60cdc049badaf82bc2c6f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d7b95bab5e3de870fd1f42f8dea8c87') in 0.027573 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/L_FG_Assets_Pack_Lite/L_FG_Assets_Pack_Lite/Materials/Ground07.mat
+  artifactKey: Guid(db7cfea5a39b71b489ee4b1933a67e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/L_FG_Assets_Pack_Lite/L_FG_Assets_Pack_Lite/Materials/Ground07.mat using Guid(db7cfea5a39b71b489ee4b1933a67e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec218b3d19c0ca7ecfe1326cce76ea0b') in 0.034553 seconds 
+Number of asset objects unloaded after import = 2
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server
