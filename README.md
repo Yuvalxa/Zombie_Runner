@@ -2,8 +2,7 @@
 
 Zombie Runner is an immersive first-person shooter game set in a post-apocalyptic world infested with zombies. The game offers intense action, strategic zombie hunting, and thrilling gameplay. This repository contains the source code and assets for the Zombie Runner game.
 
-![image](https://github.com/your-username/repository-name/assets/start-menu.png)
-![image](https://github.com/Yuvalxa/Zombie_Runner/assets/87138940/da6867ec-c3ad-47b8-97f0-9b7d3779cf5d)
+![image](https://github.com/Yuvalxa/Zombie_Runner/assets/87138940/2372b92f-63ee-4a54-9975-280a547ba27d)
 
 ## Gameplay Mechanics
 
@@ -13,6 +12,9 @@ Zombie Runner is an immersive first-person shooter game set in a post-apocalypti
 - Switch between available weapons using number keys or the scroll wheel.
 - Reload weapons using the R key.
 - Utilize stealth actions by crouching with the Left Ctrl key.
+
+
+![image](https://github.com/Yuvalxa/Zombie_Runner/assets/87138940/da6867ec-c3ad-47b8-97f0-9b7d3779cf5d)
 
 ## Features
 
